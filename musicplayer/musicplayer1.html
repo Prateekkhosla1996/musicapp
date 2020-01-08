@@ -1,0 +1,443 @@
+<!DOCTYPE html><!--main-->
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="musicplayer1.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+</head>
+<body>
+  <header>
+    <div id="header-div">
+       <img src="image/logo.png">
+       <div id="studio-name" class="text-color">
+            <p>Ninja <br> Studio</p>
+        </div>
+        <div id="search-option">
+          <form >
+            <button>
+              <i class="fas fa-search"></i>
+            </button>
+            <input type="text" name="search" required placeholder="search">
+                <button>
+                  <i class="fas fa-microphone"></i>
+                </button>
+                <!--<button><i class="fas fa-bell"></i></button>-->
+          </form> 
+        </div>
+            <img id="login-user-image" class="border-radius" src="image/login.jpg">
+    </div>
+  </header>
+
+
+  <main>
+    <div id="main">
+
+      <section>
+        <div id="trending">
+          <div class="trending-container">
+            <img src="image/internationalnewrelease1.png">
+          </div>
+          <div class="trending-container">
+            <img src="image/internationalnewrelease2.png">
+          </div>
+          <div class="trending-container">
+            <img src="image/internationalnewrelease3.png">
+          </div>
+        </div>
+      </section>
+
+      <section >
+        <div id="latest-release">
+          <div class="heading">
+            <p>
+              Latest Release
+            </p>
+          </div>
+          <div class="lr-container">
+            <a href="#audio-container">
+             <img src="image/lr1.jpg">
+              <h3> Shawn Mendes<p>Shawn Mendes</p></h3>
+              <div class="lr-icon-time">
+                <i class="fas fa-ellipsis-h"></i>
+                <p>4:4s</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="lr-container">
+            <a href="#audio-container">
+             <img src="image/lr1.jpg">
+              <h3> Shawn Mendes<p>Shawn Mendes</p></h3>
+              <div class="lr-icon-time">
+                <i class="fas fa-ellipsis-h"></i>
+                <p>4:4s</p>
+              </div>
+            </a>
+           </div>
+
+          <div class="lr-container">
+            <a href="#audio-container">
+             <img src="image/lr1.jpg">
+              <h3> Shawn Mendes<p>Shawn Mendes</p></h3>
+              <div class="lr-icon-time">
+               <i class="fas fa-ellipsis-h"></i>
+               <p>4:4s</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="lr-container">
+            <a href="#audio-container">
+             <img src="image/lr1.jpg">
+              <h3> Shawn Mendes<p>Shawn Mendes</p></h3>
+              <div class="lr-icon-time">
+                <i class="fas fa-ellipsis-h"></i>
+                <p>4:4s</p>
+              </div>
+            </a>
+          </div>
+        </div><!--latest realease div-->
+      </section>
+
+      <section >
+        <div id="popular-artist">
+          <div class="heading">
+            <p>
+              Popular Artist
+            </p>
+          </div>
+          <div class="pa-container">
+            <img src="image/charlieputh.jpg" class="border-radius">
+          </div>
+          <div class="pa-container">
+            <img src="image/edsheran.jpg" class="border-radius">
+          </div>
+          <div class="pa-container">
+            <img src="image/coldplay.jpg" class="border-radius">
+          </div>
+          <div class="pa-container">
+            <img src="image/brunomars.jpg" class="border-radius">
+          </div>
+          <div class="pa-container">
+            <img src="image/zayn.jpg" class="border-radius">
+          </div>
+          <div class="pa-container">
+            <img src="image/weekend.jpg" class="border-radius">
+          </div>
+        </div>
+      </section>
+
+      <!-- <section id="section-stations">
+        <div id="stations">
+          <div class="stations-container" id="stations-radio">
+            <img src="image/radio.jpg">
+          </div>
+          <div class="stations-container">
+            <img src="image/love.jpg" class="border-radius">
+          </div>
+          <div class="stations-container">
+            <img src="image/retro.jpg" class="border-radius">
+          </div>
+          <div class="stations-container">
+            <img src="image/chill.jpg" class="border-radius">
+          </div>
+          <div class="stations-container">
+            <img src="image/workout.jpg" class="border-radius">
+          </div>
+          <div class="stations-container">
+            <img src="image/rock.jpg" class="border-radius">
+          </div>
+        </div>
+      </section> -->
+
+      <section id="section-categories">
+        <div id="category">
+          <div class="category-container">
+            <img src="image/party.jpg">
+          </div>
+          <div class="category-container">
+            <img src="image/electronic.jpg">
+          </div>
+          <div class="category-container">
+            <img src="image/roadtrip.jpg">
+          </div>
+        </div>
+      </section>
+
+      <section id="section-latest-english">
+        <div id="latest-english">
+          <div class="heading">
+            <p>
+              Latest English
+            </p>
+          </div>
+          <div class="le-container">
+            <img src="image/english1.jpg">
+            <div class="song-name">
+              <p>
+                shape of u
+              </p>
+              <p>
+                sept 2017
+              </p>
+            </div>
+          </div>
+          <div class="le-container">
+            <img src="image/english2.jpg">
+            <div class="song-name">
+              <p>
+                Mind of mine
+              </p>
+              <p>
+                aug 2016
+              </p>
+            </div>
+          </div>
+          <div class="le-container">
+            <img src="image/english3.jpg">
+            <div class="song-name">
+              <p>
+                Purpose
+              </p>
+              <p>
+                jan 2018
+              </p>
+            </div>
+          </div>
+          <div class="le-container">
+            <img src="image/english4.jpg">
+            <div class="song-name">
+              <p>
+                love the way u lie
+              </p>
+              <p>
+                feb 2018
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="section-latest-hindi">
+        <div id="latest-hindi">
+          <div class="heading">
+            <p>
+              Latest Hindi
+            </p>
+          </div>
+          <div class="lh-container">
+            <img src="image/hindi1.jpg">
+            <div class="song-name">
+              <p>
+                Dhadak
+              </p>
+              <p>
+                Aug 2019
+              </p>
+            </div>
+          </div>
+          <div class="lh-container">
+            <img src="image/hindi2.jpg">
+            <div class="song-name">
+              <p>
+                Wakhra Swag
+              </p>
+              <p>
+                Aug 2019</p>
+              </div>
+            </div>
+          <div class="lh-container">
+            <img src="image/hindi3.jpg">
+            <div class="song-name">
+              <p>
+                Bakhyali
+              </p>
+              <p>
+                Aug 2019
+              </p>
+            </div>
+          </div>
+          <div class="lh-container">
+            <img src="image/hindi4.jpg">
+            <div class="song-name">
+              <p>
+                Dilbar
+              </p>
+              <p>
+                Aug 2019
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>  
+  </main>
+
+
+  <aside>
+    <div id="aside"></div>
+      <div id="aside-heading">
+        <h2>
+          Queue
+        </h2>
+        <div class="dropdown-menu">
+          <h4>
+            Queue
+            <i class="fas fa-caret-down"></i>
+          </h4>
+          <div class="dropdown-list nav-menu">
+            <ul class="no-list-style">
+              <li>
+                <a href=""> 
+                  Playlist
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  Favourite songs
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+     <div id="queue-list">
+       <div class="q-container">
+         <img src="image/english4.jpg">
+         <h4> 
+            Love The Way You Lie<p>Rihhana</p>
+         </h4>
+         <div class="q-icon-time">
+           <i class="fas fa-heart"></i>
+         </div>
+       </div>
+       
+       <div class="q-container">
+        <img src="image/charlieputh.jpg">
+        <h4>
+            We Don't Talk Anymore 
+            <p>charlie Puth</p>
+        </h4>
+        <div class="q-icon-time">
+          <i class="fas fa-heart"></i>
+        </div>
+       </div>
+
+       <div class="q-container">
+        <img src="image/english4.jpg">
+        <h4> Diamond<p>Rihhana</p> </h4>
+        <div class="q-icon-time">
+          <i class="fas fa-heart"></i>
+        </div>
+       </div>
+
+        <div class="q-container">
+          <img src="image/edsheran.jpg">
+          <h4> Shape Of You<p>Ed Sheeran</p> </h4>
+          <div class="q-icon-time">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="q-container">
+          <img src="image/q5.jpg">
+          <h4> Love Me Like You Do<p>Ellie Groulding</p> </h4>
+          <div class="q-icon-time">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="q-container">
+          <img src="image/english3.jpg">
+          <h4> Purpose<p>Justin Bieber</p> </h4>
+          <div class="q-icon-time">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="q-container">
+          <img src="image/q7.jpg">
+          <h4> Elastic Heart<p>sia</p></h4>
+          <div class="q-icon-time">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="q-container">
+          <img src="image/english4.jpg"><h4> Love The Way You Lie<p>Rihhana</p> </h4>
+          <div class="q-icon-time">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="q-container">
+          <img src="image/charlieputh.jpg">
+          <h4>We Don't Talk A.. <p>charlie Puth</p> </h4>
+          <div class="q-icon-time">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="q-container">
+          <img src="image/english4.jpg">
+          <h4> Diamond<p>Rihhana</p> </h4>
+          <div class="q-icon-time">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="q-container">
+          <img src="image/edsheran.jpg">
+          <h4> Shape Of You<p>Ed Sheeran</p> </h4>
+          <div class="q-icon-time">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="q-container">
+          <img src="image/q5.jpg">
+          <h4> Love Me Like You Do<p>Ellie Groulding</p> </h4>
+          <div class="q-icon-time">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="q-container">
+          <img src="image/english3.jpg">
+          <h4> Purpose<p>Justin Bieber</p> </h4>
+          <div class="q-icon-time">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="q-container">
+          <img src="image/q7.jpg">
+          <h4> Elastic Heart<p>sia</p> </h4>
+          <div class="q-icon-time">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+    </div>
+    
+  </aside>
+   
+   <!-- audio-->         
+      <div id="audio-container">
+        <div class="audio-details">
+          <img src="image/card1.jpg">
+            <p> 
+              The Scientist
+            </p>
+        </div>
+        <div id="song">
+          <audio  src="thescientist.mp3" controls="">
+          </audio>
+        </div>
+        <p id="audio-icon"><i class="fas fa-heart"></i></p>             
+      </div>
+
+</body>
+</html>
